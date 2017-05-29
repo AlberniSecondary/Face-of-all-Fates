@@ -1,0 +1,29 @@
+<?wpl version="1.0"?>
+<smil>
+    <head>
+        <meta name="Generator" content="Microsoft Windows Media Player -- 9.0.0.2795"/>
+        <title>Photo Story 3 Playlist</title>
+    </head>
+    <body>
+        <seq>
+            <smartPlaylist version="1.0.0.0">
+                <querySet>
+                    <sourceFilter id="{B2D9BDDC-8E49-444B-9BA4-193ABF9C7870}" name="Video from my Media Library">
+                        <fragment name="Publisher">
+                            <argument name="condition">Is</argument>
+                            <argument name="value">Plus! Photo Story</argument>
+                        </fragment>
+                    </sourceFilter>
+                </querySet>
+                <querySet>
+                    <sourceFilter id="{B2D9BDDC-8E49-444B-9BA4-193ABF9C7870}" name="Video from my Media Library">
+                        <fragment name="Genre">
+                            <argument name="condition">Is</argument>
+                            <argument name="value">Photo Story</argument>
+                        </fragment>
+                    </sourceFilter>
+                </querySet>
+            </smartPlaylist>
+        </seq>
+    </body>
+</smil>
